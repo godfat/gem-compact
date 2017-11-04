@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.email = ["godfat (XD) godfat.org".freeze]
   s.files = [
   ".gitmodules".freeze,
+  "CHANGES.md".freeze,
   "README.md".freeze,
   "Rakefile".freeze,
   "gem-compact.gemspec".freeze,
