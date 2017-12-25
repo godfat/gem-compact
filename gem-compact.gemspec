@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Lin Jen-Shin (godfat)".freeze]
-  s.date = "2017-11-04"
+  s.date = "2017-12-25"
   s.description = "Clean up gems for all the paths, including development dependencies.".freeze
   s.email = ["godfat (XD) godfat.org".freeze]
   s.files = [
@@ -24,6 +24,6 @@ Gem::Specification.new do |s|
   "task/gemgem.rb".freeze]
   s.homepage = "https://github.com/godfat/gem-compact".freeze
   s.licenses = ["Apache-2".freeze]
-  s.rubygems_version = "2.7.1".freeze
+  s.rubygems_version = "2.7.3".freeze
   s.summary = "Clean up gems for all the paths, including development dependencies.".freeze
 end

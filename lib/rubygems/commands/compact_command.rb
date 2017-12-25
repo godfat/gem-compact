@@ -25,8 +25,11 @@ class Gem::Commands::CompactCommand < Gem::Command
   def with_path
     path = Gem.path
     path.each do |dir|
-      Gem.use_paths(dir)
-      yield
+      if Dir.exist?(dir)
+        say "Checking #{dir}"
+        Gem.use_paths(dir)
+        yield
+      end
     end
   ensure
     Gem.use_paths(*path)
