@@ -35,7 +35,7 @@ everything it could.
 
 ## LICENSE:
 
-Apache License 2.0 (Apache-2)
+Apache License 2.0 (Apache-2.0)
 
 Copyright (c) 2017, Lin Jen-Shin (godfat)
 

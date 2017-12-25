@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
   "task/README.md".freeze,
   "task/gemgem.rb".freeze]
   s.homepage = "https://github.com/godfat/gem-compact".freeze
-  s.licenses = ["Apache-2".freeze]
+  s.licenses = ["Apache-2.0".freeze]
   s.rubygems_version = "2.7.3".freeze
   s.summary = "Clean up gems for all the paths, including development dependencies.".freeze
 end
