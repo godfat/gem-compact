@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib".freeze]
   s.authors = ["Lin Jen-Shin (godfat)".freeze]
   s.date = "2017-12-25"
-  s.description = "Clean up gems for all the paths, including development dependencies.".freeze
+  s.description = "Clean up gems for all the paths, including development dependencies.\n\nThis is mainly to cleanup gems installed with `--user-install`, because\n`gem cleanup` would not try to cleanup gems installed there, and would also\nignore development dependencies. With `gem compact` it would try to cleanup\neverything it could.".freeze
   s.email = ["godfat (XD) godfat.org".freeze]
   s.files = [
   ".gitmodules".freeze,

@@ -11,6 +11,11 @@ by Lin Jen-Shin ([godfat](http://godfat.org))
 
 Clean up gems for all the paths, including development dependencies.
 
+This is mainly to cleanup gems installed with `--user-install`, because
+`gem cleanup` would not try to cleanup gems installed there, and would also
+ignore development dependencies. With `gem compact` it would try to cleanup
+everything it could.
+
 ## REQUIREMENTS:
 
 * Tested with MRI (official CRuby), Rubinius and JRuby.
@@ -21,8 +26,8 @@ Clean up gems for all the paths, including development dependencies.
 
 ## SYNOPSIS:
 
-    gem compact
-    gem compact rake
+    gem compact # For all the gems
+    gem compact rake # For a particular gem
 
 ## CONTRIBUTORS:
 
